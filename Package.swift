@@ -16,15 +16,7 @@ let package = Package(
     targets: [
         .target(
             name: "Koloda",
-            dependencies: [
-                "pop"
-            ],
             path: "Pod/Classes/"
-        ),
-        .binaryTarget(
-            name: "pop",
-            url: "https://github.com/Wei18/pop/releases/download/1.0.12/pop-addx86sim.zip",
-            checksum: "b7e8679f4798d1f4f52578e3843fd2e29522e39b136ceca2ffc4ecca4b221663"
         ),
     ]
 )
